@@ -1,0 +1,51 @@
+body {
+    background-color: #ddd;
+    min-height: 2250px;
+    position: relative;
+}
+
+.myNavBar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #fff;
+}
+
+.myName {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 10px 0 0 0;
+}
+
+
+.myBox {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.myFooter {
+    background-color: #666;
+    width: 100%;
+    position: absolute;
+    bottom: -35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    height: 90px;
+    text-align: center;
+    color: #ccc;
+    border-top: 8px solid #4aaaa5;
+}
+
+@media screen and (max-width: 640px) {
+    .myName {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+}
