@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   
+    
     <nav class="navbar navbar-light myNavBar d-flex justify-content-around">
         <span class="navbar-brand mb-0 h1 myName" style="color: #fff">John Julius-Giles Eastwood</span>
         <div class="d-flex justify-content-end">
-            <a class="navbar-brand" href="index.html">About Me</a>
-            <a class="navbar-brand" href="portfolio.html">Portfolio</a>
-            <a class="navbar-brand" href="contact.html">Contact</a>
+            <a class="sideLink" href="index.html">About Me</a>
+            <a class="middleLink" href="portfolio.html">Portfolio</a>
+            <a class="sideLink" href="contact.html">Contact</a>
         </div>
     </nav>
          
@@ -28,34 +28,43 @@
                 Portfolio
             </h2>
             <hr class="my-4">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="assets\images\lorem_pixel_320x240\img-1.jpg" class="img-fluid" alt="Responsive image 1">
-                </div>
-                <div class="col-md-6">
-                    <img src="assets\images\lorem_pixel_320x240\img-2.jpg" class="img-fluid" alt="Responsive image 1">
-                </div>
+            <div class="row gridMkr">
+                <a class="anchor1 col-md-6" href="assets/images/lorem_pixel_320x240/img-1.jpg" download target="_blank">
+                    <img src="assets\images\lorem_pixel_320x240\img-1.jpg" class="img-fluid myImage" alt="Responsive image 1">
+                    <figcaption>Hangman</figcaption>
+                </a>
+                <a class="anchor2 col-md-6" href="assets/images/lorem_pixel_320x240/img-2.jpg" target="_blank">
+                    <img src="assets\images\lorem_pixel_320x240\img-2.jpg" class="img-fluid myImage" alt="Responsive image 1">
+                    <figcaption>RPG Game</figcaption>
+                </a>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="assets\images\lorem_pixel_320x240\img-3.jpg" class="img-fluid" alt="Responsive image 1">
-                </div>
-                <div class="col-md-6">
-                    <img src="assets\images\lorem_pixel_320x240\img-4.jpg" class="img-fluid" alt="Responsive image 1">
-                </div>
+            <div class="row gridMkr">
+                <a class="anchor3 col-md-6" href="assets/images/lorem_pixel_320x240/img-3.jpg" download target="_blank">
+                    <img src="assets\images\lorem_pixel_320x240\img-3.jpg" class="img-fluid myImage" alt="Responsive image 1">
+                    <figcaption>Trivia Game</figcaption>
+                </a>
+                <a class="anchor4 col-md-6" href="assets/images/lorem_pixel_320x240/img-4.jpg" download target="_blank">
+                    <img src="assets\images\lorem_pixel_320x240\img-4.jpg" class="img-fluid myImage" alt="Responsive image 1">
+                    <figcaption>Rutgers Info Widget</figcaption>
+                </a>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="assets\images\lorem_pixel_320x240\img-5.jpg" class="img-fluid" alt="Responsive image 1">
-                </div>
-                <div class="col-md-6"></div>
+            <div class="row gridMkr">
+                <a class="anchor5 col-md-6" href="assets/images/lorem_pixel_320x240/img-5.jpg" download target="_blank">
+                    <img src="assets\images\lorem_pixel_320x240\img-5.jpg" class="img-fluid myImage" alt="Responsive image 1">
+                    <figcaption>Rock Paper Scissors</figcaption>
+                </a>
+            <div class="col-md-6"></div>
             </div>
         </div>
     </div>
 
     <div class="myFooter">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="linkedIn logo" href="https://www.linkedin.com/in/john-eastwood-40b207173/"><img class="logo" height="59px" width="48px" alt="linkedin logo" src="assets/images/In-White-48px-TM.png"></a>
+                <a class="gitHub logo" href="https://github.com/jjge732"><img class="logo" alt="github logo" height="48px" width="48px" src="assets/images/GitHub-Mark-Light-64px.png"></a>                
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 Copyright &copy;
